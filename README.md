@@ -147,7 +147,7 @@ If you like this project give me star please.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Daniel for his cooperation in this project.
+I would like to thank Hernan for his cooperation in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

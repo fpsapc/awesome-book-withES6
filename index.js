@@ -3,7 +3,7 @@ import { DateTime } from './modules/luxon.js';
 import AwesomeBooks from './modules/awesomebooks.js';
 
 // Date and time from luxon.js
-const currentDate = DateTime.now();
+const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 const currentTime = document.getElementById('currentTime');
 currentTime.innerHTML = currentDate.toString();
 

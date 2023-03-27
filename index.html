@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="authors" content="Salman Ahmad Khan" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./Assets/books.png" type="image/x-icon" />
+    <title>Awesome Books with ES6</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <nav id="navBar">
+      <p class="logo">
+        Awesome Books with ES6
+        <img src="./Assets/bookreader.png" alt="" class="logoIcon" />
+      </p>
+      <ul class="navList">
+        <li id="list" class="listItem">
+          <button class="navBtn" type="button">list</button>
+        </li>
+        <li id="addNew" class="listItem">
+          <button class="navBtn" type="button">Add new</button>
+        </li>
+        <li id="contact" class="listItem lastItem">
+          <button class="navBtn" type="button">Contact</button>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <p id="currentTime"></p>
+      <section id="firstBookContainer">
+        <div id="TitleContainer">
+          <h1 class="Title">All Awesome Books</h1>
+          <ul id="bookList"></ul>
+          <br />
+        </div>
+      </section>
+      <section>
+        <form id="addBook" action="#" class="addBook">
+          <h2>Add a new book</h2>
+          <input type="text" id="title" placeholder="title" class="input" />
+          <input type="text" id="author" placeholder="author" class="input" />
+          <button type="button" id="addBtn">Add</button>
+        </form>
+      </section>
+      <section id="contactInfo">
+        <img src="./Assets/Book1.png" alt="brow book" class="browBook" />
+        <h2>Contact Information</h2>
+        <p>
+          Do have any questions or you just want to say hello!?<br />You can
+          reach out to us!
+        </p>
+        <ul>
+          <li>Our email: fpsapc@gmail.com</li>
+          <li>Our Phone#: +92301-4497147</li>
+          <li>Our Address: District Sheikhupura, Punjab, Pakistan.</li>
+        </ul>
+      </section>
+    </main>
+    <footer id="footer">Copyrights &copy; All rights reserved</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
